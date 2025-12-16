@@ -3,6 +3,7 @@
 }
 
 /* CSS Custom Properties */
+/* helps in creating custom variable name for color scheme*/
 :root {
   --main-bg: #4a4e4d;
   --top-menu-bg: #0e9aa7;

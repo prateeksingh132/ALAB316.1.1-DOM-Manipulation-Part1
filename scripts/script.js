@@ -41,6 +41,7 @@ var menuLinks = [
 //     topMenuEl.appendChild(aElement);
 // });
 
+// with for-of
 for(let link of menuLinks){
     let aElement = document.createElement('a');
     aElement.setAttribute('href', link.href);
