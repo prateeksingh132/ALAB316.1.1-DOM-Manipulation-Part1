@@ -32,7 +32,7 @@ var menuLinks = [
   { text: 'account', href: '/account' },
 ];
 
-// it doesnt work for for..in .. have to use forEach, find out why?
+// it doesnt work for for..in .. for accessing inside an array, best are for of and foreach
 // should use for of.
 // menuLinks.forEach((link) => {
 //     let aElement = document.createElement('a');
