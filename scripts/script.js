@@ -33,9 +33,19 @@ var menuLinks = [
 ];
 
 // it doesnt work for for..in .. have to use forEach, find out why?
-menuLinks.forEach((link) => {
+// should use for of.
+// menuLinks.forEach((link) => {
+//     let aElement = document.createElement('a');
+//     aElement.setAttribute('href', link.href);
+//     aElement.textContent = link.text;
+//     topMenuEl.appendChild(aElement);
+// });
+
+for(let link of menuLinks){
     let aElement = document.createElement('a');
     aElement.setAttribute('href', link.href);
     aElement.textContent = link.text;
     topMenuEl.appendChild(aElement);
-});
+}
+
+
